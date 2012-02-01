@@ -25,18 +25,15 @@ namespace GoingleUmbraco
         {
             get
             {
-                if (HttpContext.Current.Items["areScaffoldsTemplatesCompiled"] != null)
-                {
-                    return true;
-                }
-                else
+                if (HttpContext.Current.Items["areScaffoldsTemplatesCompiled"] == null)
                 {
                     HttpContext.Current.Items["areScaffoldsTemplatesCompiled"] = true;
                     return false;
                 }
+                //else
+                return true;    
             }
         }
-
 
         private RazorScaffoldCore()
         {
