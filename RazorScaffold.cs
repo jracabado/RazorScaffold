@@ -3,7 +3,7 @@ using System.Web.WebPages;
 using System.Collections.Generic;
 using umbraco.MacroEngines;
 
-namespace GoingleUmbraco
+namespace RazorScaffold
 {
     public static class RazorScaffold
     {
