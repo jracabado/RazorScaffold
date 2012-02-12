@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Web;
 using System.IO;
 
-namespace GoingleUmbraco
+namespace RazorScaffold
 {
     public class RazorScaffoldCore
     {
